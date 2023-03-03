@@ -8,57 +8,59 @@
   <body>
     <div class="page-container">
       <header class="page-header">
-        <div class="header-container">
-          <!-- Логотип -->
-          <a class="logo" href="index.html"><img src="images/logo-sedona.svg" wids="140" height="70" alt="Логотип сайта городка SEDONA"></a>
-          <!-- Навигация -->
-          <nav class="page-navigation">
-            <!-- Навигация по сайту -->
-            <ul class="navigation-list navigation-site">
-              <li class="navigation-item">
-                <a class="navigation-link" href="index.html">Главная</a>
-              </li>
-              <li class="navigation-item">
-                <a class="navigation-link" href="#">О седоне</a>
-              </li>
-              <li class="navigation-item">
-                <a class="navigation-link">Гостиницы</a>
-              </li>
-            </ul>
-            <!-- Навигация пользователя -->
-            <ul class="navigation-list navigation-user">
-              <li class="navigation-item">
-                <a class="navigation-link" href="#">
-                  <span class="visually-hidden">Поиск</span>
-                  <img src="images/search.svg" width="44" height="64" alt="Лупа">
-                </a>
-              </li>
-              <li class="navigation-item">
-                <a class="navigation-link" href="#">
-                  <span class="visually-hidden">Избранное</span>
-                  <span class="notification-badge">12</span>
-                  <img src="images/heart.svg" width="20" height="20" alt="Сердечко">
-                </a>
-              </li>
-              <li class="navigation-item">
-                <a class="navigation-link navigation-link-want" href="#">Хочу сюда!</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
+        <!-- Логотип -->
+        <a class="logo" href="index.html"><img src="images/logo-sedona.svg" wids="140" height="70" alt="Логотип сайта городка SEDONA"></a>
+        <!-- Навигация -->
+        <nav class="navigation">
+          <!-- Навигация по сайту -->
+          <ul class="navigation-list navigation-site">
+            <li class="navigation-item">
+              <a class="navigation-link" href="index.html">Главная</a>
+            </li>
+            <li class="navigation-item">
+              <a class="navigation-link" href="#">О седоне</a>
+            </li>
+            <li class="navigation-item">
+              <a class="navigation-link">Гостиницы</a>
+            </li>
+          </ul>
+          <!-- Навигация пользователя -->
+          <ul class="navigation-list navigation-user">
+            <li class="navigation-item">
+              <a class="navigation-link" href="#">
+                <span class="visually-hidden">Поиск</span>
+                <img src="images/search.svg" width="20" height="20" alt="Лупа.">
+              </a>
+            </li>
+            <li class="navigation-item">
+              <a class="navigation-link" href="#">
+                <span class="visually-hidden">Избранное</span>
+                <span class="notification-badge">12</span>
+                <img src="images/heart.svg" width="20" height="20" alt="Сердечко.">
+              </a>
+            </li>
+            <li class="navigation-item">
+              <a class="navigation-link navigation-link-want" href="#">Хочу сюда!</a>
+            </li>
+          </ul>
+        </nav>
       </header>
       <main class="main-inner main-container">
         <div class="content-box">
+
           <div class="header-box">
             <header class="inner-header">
               <h1 class="inner-header-title">Гостиницы Седоны</h1>
               <!-- "Хлебные крошки" -->
               <ul class="breadcrumbs">
                 <li class="breadcrumbs-item">
-                  <a class="breadcrumbs-link" href="index.html"><span class="visually-hidden">Главная</span></a>
+                  <a class="breadcrumbs-link" href="index.html">
+                    <span class="visually-hidden">Главная</span>
+                    <img class="breadcrumbs-image" src="images/icon-home.svg" width="13" height="15" alt="Домик.">
+                  </a>
                 </li>
                 <li class="breadcrumbs-item">
-                  <a class="breadcrumbs-link" href="index.html">Гостиницы</a>
+                  <a class="breadcrumbs-link" href="#">Гостиницы</a>
                 </li>
               </ul>
             </header>
@@ -117,8 +119,8 @@
                 <!-- Стоимость -->
                 <fieldset class="catalog-filter-prise">
                   <legend class="catalog-filter-prise-title">Стоимость, ₽:</legend>
-                  <input class="prise-input" type="text" name="begin" value="от">
-                  <input class="prise-input" type="text" name="limit" value="до">
+                  <input class="prise-input" type="text" name="begin">
+                  <input class="prise-input" type="text" name="limit">
                   <!--Здесь будет полоса прокрутки сортировки.-->
                 </fieldset>
                 <div class="filter-btn">
@@ -128,6 +130,8 @@
               </form>
             </section>
           </div>
+
+
           <!-- Каталог -->
           <section class="control-select">
             <div class="search-hotels">
@@ -147,7 +151,7 @@
             <ul class="hotel-card-list">
               <li class="hotel-card">
                 <a class="hotel-card-link" href="#">
-                  <img class="hotel-card-image" src="images/hotel-amara-resort.jpg" width="300" height="212" alt="Вид из ущелья на звезды">
+                  <img class="hotel-card-image" src="images/hotel-amara-resort.jpg" width="300" height="212" alt="Вид из ущелья на звезды.">
                   <h3 class="hotel-card-title">Amara Resort & Spa</h3>
                 </a>
                 <p class="hotel-card-text">Гостиница</p>
@@ -161,7 +165,7 @@
               </li>
               <li class="hotel-card">
                 <a class="hotel-card-link" href="#">
-                  <img class="hotel-card-image" src="images/hotel-villas-poco-diablo.jpg" width="300" height="212" alt="Вид на горы освещенные солнцем и радуга">
+                  <img class="hotel-card-image" src="images/hotel-villas-poco-diablo.jpg" width="300" height="212" alt="Вид на горы освещенные солнцем и радуга.">
                   <h3 class="hotel-card-title">Villas at Poco Diablo</h3>
                 </a>
                 <p class="hotel-card-text">Гостиница</p>
@@ -175,7 +179,7 @@
               </li>
               <li class="hotel-card">
                 <a class="hotel-card-link" href="#">
-                  <img class="hotel-card-image" src="images/hotel-desert-quail.jpg" width="300" height="212" alt="Гора на фоне утреннего неба">
+                  <img class="hotel-card-image" src="images/hotel-desert-quail.jpg" width="300" height="212" alt="Гора на фоне утреннего неба.">
                   <h3 class="hotel-card-title">Desert Quail Inn</h3>
                 </a>
                 <p class="hotel-card-text">Гостиница</p>
@@ -189,7 +193,7 @@
               </li>
               <li class="hotel-card">
                 <a class="hotel-card-link" href="#">
-                  <img class="hotel-card-image" src="images/hotel-greentree.jpg" width="300" height="212" alt="Гора на фоне звёздного неба">
+                  <img class="hotel-card-image" src="images/hotel-greentree.jpg" width="300" height="212" alt="Гора на фоне звёздного неба.">
                   <h3 class="hotel-card-title">GreenTree Inn</h3>
                 </a>
                 <p class="hotel-card-text">Гостиница</p>
@@ -227,15 +231,19 @@
           </section>
         </div>
       </main>
+      <!-- Футер -->
       <footer class="page-footer">
-        <section class="newsletter-catalog">
-          <h2 class="newsletter-caption">Подпишитесь на рассылку</h2>
-          <p class="text-description">Только полезная информация и никакого спама, <br>честное бойскаутское!</p>
-          <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-            <label class="visually-hidden" for="newsletter-email">Email</label>
-            <input class="field"  placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
-            <button class="button newsletter-button" type="submit">Подписаться</button>
-          </form>
+        <!-- Подписка -->
+        <section class="newsletter newsletter-catalog">
+          <div class="newsletter-wrapper">
+            <h2 class="newsletter-caption newsletter-caption-catalog">Подпишитесь на рассылку</h2>
+            <p class="newsletter-description newsletter-description-catalog">Только полезная информация и никакого спама, <br>честное бойскаутское!</p>
+            <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
+              <label class="visually-hidden" for="newsletter-email">Email</label>
+              <input class="field"  placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
+              <button class="newsletter-button" type="submit">Подписаться</button>
+            </form>
+          </div>
         </section>
         <h2 class="visually-hidden">Контакты</h2>
         <!-- Социальные кнопки -->
@@ -254,7 +262,7 @@
           <!-- Телефон -->
           <a class="footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
           <!-- Логотип HtmlAcademy -->
-          <a class="htmlacademy-link" href="https://htmlacademy.ru/"><img src="images/logo-htmlacademy.svg" width="114.9" height="32.9" alt="Логотип Html Academy"></a>
+          <a class="htmlacademy-link" href="https://htmlacademy.ru/"><img src="images/logo-htmlacademy.svg" width="114.9" height="32.9" alt="Логотип Html Academy."></a>
         </div>
       </footer>
     </div>
