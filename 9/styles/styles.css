@@ -159,9 +159,19 @@ body {
   background-color: #756257;
 }
 
-.navigation-image:hover {
-  color: #68a2ca;;
+.navigation-image:hover,
+.notification-badge:hover,
+.navigation-link:hover {
+  color: rgba(63, 61, 61, 0.3);
 }
+
+.navigation-image:focus,
+.notification-badge:focus,
+.navigation-link:focus {
+  color: rgba(63, 61, 61, 0.3);
+}
+
+
 
 /*-- Логотип --*/
 
@@ -917,7 +927,11 @@ margin: 0;
   margin: 0;
   padding: 0;
   margin-bottom: 40px;
-  margin-left: -10px;
+  box-sizing: border-box;
+  position: relative;
+  background-image: url("../images/arrow.svg");
+  background-repeat: no-repeat;
+  background-position: 23px 2px;
 }
 
 .breadcrumbs-link {
@@ -928,7 +942,6 @@ margin: 0;
   color: #ffffff;
   text-decoration: none;
   margin-right: 28px;
-  padding: 20px 10px;
 }
 
 
@@ -998,15 +1011,15 @@ margin: 0;
   opacity: 0.6;
 }
 
-.control-input:focus + .control-mark {
+.control-mark:focus {
   border: 3px solid #83b3d3;
 }
 
-.control-input:active + .control-mark {
+.control-mark:active {
   opacity: 0.3;
 }
 
-.control-input:disabled + .control-mark {
+.control-mark:disabled {
   opacity: 0.1;
 }
 
