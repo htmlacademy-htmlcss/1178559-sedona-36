@@ -176,8 +176,6 @@ body {
   color: rgba(63, 61, 61, 0.3);
 }
 
-
-
 /*-- Логотип --*/
 
 .logo {
@@ -185,8 +183,6 @@ body {
   content: "";
 }
 
-
-/* Основная секция */
 
 /*hero section*/
 
@@ -310,7 +306,7 @@ body {
 }
 
 .advantages-image {
-  display: flex;  /* Убирает нижний отступ у картинки */
+  display: flex;
 }
 
 
@@ -906,7 +902,6 @@ margin: 0;
 
 /*------------------КАТАЛОГ--------------------*/
 
-
 /* Основная секция */
 
 .main-inner {
@@ -1057,7 +1052,7 @@ margin: 0;
 
   .control-input[type="radio"] + .control-mark {
     border-radius: 50%;
-  }
+}
 
   .control-input[type="radio"]:checked + .control-mark::before {
     position: absolute;
@@ -1195,7 +1190,6 @@ margin: 0;
   outline: 3px solid #83b3d3;
 }
 
-
 .range-toggle:active {
   outline: 2px solid #83b3d3;
 }
@@ -1272,7 +1266,6 @@ margin: 0;
 .filter-btn-apply:disabled {
   background-color: #e5e5e5;
 }
-
 
 .filter-btn-reset {
   background: transparent;
@@ -1487,7 +1480,6 @@ margin: 0;
   margin: 10px 6px 10px 0;
   background-image: url("../images/star.svg");
   background-repeat: no-repeat;
-
 }
 
 .select-place-rating {
@@ -1586,7 +1578,6 @@ margin: 0;
 
 .pagination-item:not(:last-child) {
   margin-right: 8px;
-
 }
 
 .pagination-link {
