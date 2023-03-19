@@ -10,11 +10,8 @@
   <body>
     <div class="page-container">
       <header class="page-header">
-        <!-- Логотип -->
         <a class="logo" href="index.html"><img src="images/logo-sedona.svg" width="140" height="70" alt="Логотип сайта городка SEDONA"></a>
-        <!-- Навигация -->
         <nav class="navigation">
-          <!-- Навигация по сайту -->
           <ul class="navigation-list navigation-site">
             <li class="navigation-item">
               <a class="navigation-link" href="index.html">Главная</a>
@@ -26,7 +23,6 @@
               <a class="navigation-link navigation-link-current">Гостиницы</a>
             </li>
           </ul>
-          <!-- Навигация пользователя -->
           <ul class="navigation-list navigation-user">
             <li class="navigation-item">
               <a class="navigation-link" href="#">
@@ -40,7 +36,7 @@
               <a class="navigation-link navigation-link-badge" href="#">
                 <span class="visually-hidden">Избранное.</span>
                 <span class="notification-badge">12</span>
-                <svg class="navigation-image" width="20" height="20" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <svg class="navigation-image-heart" width="20" height="20" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                   <path d="M9.9 19C9.6 19 9.3 18.9 9.1 18.6C3.7 12.5 2.4 11.1 2.1 10.7C1.4 9.8 1 8.6 1 7.4C1 4.4 3.4 2 6.5 2C7.8 2 9 2.5 10 3.3C11 2.5 12.3 2 13.5 2C16.5 2 19 4.4 19 7.4C19 8.7 18.5 9.9 17.7 10.8L10.7 18.7C10.5 18.9 10.3 19 9.9 19ZM3.9 9.5C4.2 9.9 7.4 13.5 10 16.4L16.2 9.4C16.7 8.9 16.9 8.2 16.9 7.4C16.9 5.6 15.4 4.1 13.6 4.1C12.6 4.1 11.6 4.6 10.9 5.4C10.6 5.7 10.3 5.8 10 5.8C9.7 5.8 9.4 5.6 9.2 5.4C8.5 4.6 7.5 4.1 6.5 4.1C4.7 4.1 3.2 5.6 3.2 7.4C3.1 8.3 3.5 9 3.9 9.5C3.8 9.5 3.8 9.5 3.9 9.5Z"/>
                 </svg>
               </a>
@@ -56,7 +52,6 @@
           <div class="header-box">
             <header class="inner-header">
               <h1 class="inner-header-title">Гостиницы Седоны</h1>
-              <!-- "Хлебные крошки" -->
               <ul class="breadcrumbs">
                 <li class="breadcrumbs-item">
                   <a class="breadcrumbs-link breadcrumbs-home-link" href="index.html">
@@ -72,11 +67,9 @@
                 </li>
               </ul>
             </header>
-            <!-- Фильтр -->
             <section class="filter-section">
               <h2 class="visually-hidden">Список инфраструктуры и типа жилья с фильтрами.</h2>
               <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
-                <!-- Инфраструктура -->
                 <fieldset class="catalog-filter-group catalog-filter-infrastructure">
                   <legend class="catalog-filter-title">Инфраструктура:</legend>
                   <ul class="catalog-filter-list">
@@ -103,7 +96,6 @@
                     </li>
                   </ul>
                 </fieldset>
-                <!-- Тип жилья -->
                 <fieldset class="catalog-filter-group catalog-filter-housing">
                   <legend class="catalog-filter-title">Тип жилья:</legend>
                   <ul class="catalog-filter-list">
@@ -130,7 +122,6 @@
                     </li>
                   </ul>
                 </fieldset>
-                <!-- Стоимость -->
                   <fieldset class="catalog-filter-prise">
                     <legend class="catalog-filter-prise-title">Стоимость, ₽:</legend>
                     <div class="range">
@@ -163,14 +154,12 @@
               </form>
             </section>
           </div>
-          <!-- Каталог -->
           <section class="control-select">
             <div class="search-hotels">
               <h2 class="search-hotels-caption">Найдено гостиниц:<span class="search-hotels-result"> 38</span></h2>
-              <!-- Сортировка -->
               <select class="select-control" aria-label="Сортировка">
-                <option value="popular">Сначала популярные</option>
                 <option value="cheap">Сначала дешевые</option>
+                <option value="popular">Сначала популярные</option>
                 <option value="expensive">Сначала дорогие</option>
               </select>
               <ul class="view-filter-list">
@@ -191,7 +180,6 @@
                 </li>
               </ul>
             </div>
-            <!-- Карточки товаров -->
             <ul class="hotel-card-list">
               <li class="hotel-card">
                 <a class="hotel-card-link" href="#">
@@ -263,7 +251,6 @@
                 <p class="select-place-rating">Рейтинг: 5,0</p>
               </li>
             </ul>
-            <!-- Пагинация -->
             <ol class="pagination">
               <li class="pagination-item">
                 <a class="pagination-link pagination-current">1</a>
@@ -287,9 +274,7 @@
           </section>
         </div>
       </main>
-      <!-- Футер -->
       <footer class="page-footer">
-        <!-- Подписка -->
         <section class="newsletter newsletter-catalog">
           <div class="newsletter-wrapper">
             <h2 class="newsletter-caption newsletter-caption-catalog">Подпишитесь на рассылку</h2>
@@ -302,7 +287,6 @@
           </div>
         </section>
         <h2 class="visually-hidden">Контакты.</h2>
-        <!-- Социальные кнопки -->
         <div class="footer-social-info">
           <ul class="footer-social-list">
             <li class="footer-social-item">
@@ -330,9 +314,7 @@
               </a>
             </li>
           </ul>
-          <!-- Телефон -->
           <a class="footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-          <!-- Логотип HtmlAcademy -->
           <a class="htmlacademy-link" href="https://htmlacademy.ru/">
             <svg xmlns="http://www.w3.org/2000/svg" width="115" height="34" viewBox="0 0 115 34" fill="currentColor">
               <g clip-path="url(#clip0_33515_1190)">
